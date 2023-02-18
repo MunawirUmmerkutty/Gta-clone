@@ -1,0 +1,450 @@
+*{
+    padding: 0;
+    margin: 0;
+    /* background-color: black; */
+}
+body{
+    margin: 0;
+}
+.head{
+    width: 100%;
+    height: 30px;
+    background-color: black;
+
+}
+.headleft{
+    width: 50%;
+    background-color: black;
+    height: 60px;
+    float: left; 
+    display: flex;
+    flex-direction:center;
+}
+.headright{
+    width: 50%;
+    background-color: black;
+    height: 60px;
+    float: right;
+    
+}
+.align{
+    width: 30px;
+    height: 30px;
+    padding-left: 70px;
+    padding-top: 15px;
+}
+.logo{
+    height: 37px;
+    padding-top: 10px;
+    padding-left: 600px;
+    margin-bottom: 90px;
+}
+
+.manlog{
+    height: 40px;
+    padding-top: 10px;
+    padding-left: 640px;
+    width: 35px;
+}
+.cenleft{
+    width: 70%;
+    background-color: black;
+    height: 600px;
+    float: left;
+}
+.cenright{
+    width: 30%;
+    background-color: black;
+    height: 600px;
+    float: right;
+}
+.image1{
+    width: 1075px;
+    height: 600px;
+    
+}
+.title{
+    color: white;
+    padding-top: 100px;
+    padding-left: 30px;
+}
+.subtitle{
+    color: white;
+    padding-left: 30px;
+    padding-top: 15px;
+    font-size: 40px;
+
+}
+.button {
+    margin-left: 30px;
+    width: 250px;
+    height: 50px;
+    margin-top: 30px;
+    font-size: x-large;
+    border-color: white;
+    color: white;
+    background-color: black;
+    border-style: dotted;
+    
+
+}
+.part1{
+    background-color: black;
+    width: 100%;
+    padding-top: 250px;
+}
+.news{
+    color: white;
+    width: 100px;
+    padding-left: 90px;
+    font-size: xx-large;
+    margin-top: 500px;
+    padding-bottom: 10px; 
+}
+.part2{
+    display: flex;
+    flex-direction: row;
+    
+    
+}
+.one,.two,.three{
+    background-color: black;
+    height: 400px;
+    width: 100%;
+    flex: 1;
+
+
+}
+.image2{
+    width: 390px;
+    padding-left: 90px;
+    padding-top: 10px;
+
+}
+.image3{
+    width: 390px;
+    padding-left: 40px;
+    padding-top: 10px;
+
+}
+.image4{
+    width: 390px;
+    padding-left: 20px;
+    padding-top: 10px;
+
+}
+.part3{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 200px;
+    background-color: black;
+}
+.title1{
+    padding-left: 90px;
+    font-size: medium;
+    color: white;
+    padding-top:10px;
+
+}
+
+.title2{
+    font-size: x-large;
+    padding-left: 90px;
+    font-weight: bold;
+    padding-top: 10px;
+    color: white;
+}
+.title3{
+    padding-left: 170px;
+    font-size: medium;
+    padding-top: 10px;
+    color: white;
+}
+
+.title4{
+    font-size: x-large;
+    padding-left: 170px;
+    font-weight: bold;
+    padding-top: 10px;
+    color: white;
+}
+.title5{
+    padding-left: 120px;
+    font-size: medium;
+    padding-top: 10px;
+    color: white;
+}
+.title6{
+    font-size: x-large;
+    padding-left: 120px;
+    font-weight: bold;
+    padding-top: 10px;
+    color: white;
+}
+.part4{
+    display: flex;
+    flex-direction: row;
+}
+.four,.five,.six{
+    background-color: black;
+    height: 400px;
+    width: 100%;
+    flex: 1;
+
+}
+.image5{
+    width: 390px;
+    padding-left: 90px;
+    padding-top: 10px;
+}
+.image6{
+    width: 390px;
+    padding-left: 50px;
+    padding-top: 10px;
+}
+.image7{
+    width: 390px;
+    padding-left: 40px;
+    padding-top: 10px;
+}
+.part5{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 200px;
+    background-color: black;
+}
+.title7{
+    padding-left: 90px;
+    font-size: medium;
+    color: white;
+    padding-top:10px;
+}
+.title8{
+    font-size: x-large;
+    padding-left: 90px;
+    font-weight: bold;
+    padding-top: 10px;
+    color: white;
+}
+.title9{
+    padding-left: 150px;
+    font-size: medium;
+    color: white;
+    padding-top:10px;
+}
+.title10{
+    font-size: x-large;
+    padding-left: 150px;
+    font-weight: bold;
+    padding-top: 10px;
+    color: white;
+}
+.title11{
+    padding-left: 120px;
+    font-size: medium;
+    padding-top: 10px;
+    color: white;
+}
+.title12{
+    font-size: x-large;
+    padding-left: 120px;
+    font-weight: bold;
+    padding-top: 10px;
+    color: white;
+}
+.part6{
+    display: flex;
+    flex-direction: row;
+}
+.part6{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 200px;
+    background-color: black;
+}
+.title13{
+    padding-left: 90px;
+    font-size: xx-large;
+    color: white;
+    padding-top:10px;
+    padding-top: 100px;
+}
+.viewbutton{
+    margin-left: 430px;
+    font-size: medium;
+    
+    margin-bottom: 80px;
+    color: white;
+    background-color: black;
+    border-color: white;
+    
+}
+.part7{
+    display: flex;
+    flex-direction: row;
+}
+.seven,.eight,.nine,.ten{
+    width: 100%;
+    height: 400px;
+    flex: 1;
+    background-color: black;
+}
+.image8{
+    width: 320px;
+    height: 380px;
+    padding-left: 80px;
+
+}
+.image9{
+    width: 320px;
+    height: 380px;
+    padding-left: 30px;
+}
+.image10{
+    width: 320px;
+    height: 380px;
+    padding-left: 20px;
+}
+.image11{
+    width: 320px;
+    height: 380px;
+    padding-right: 20px;
+}
+.part8{
+    display: flex;
+    flex-direction: row;
+}
+.duplicate{
+    width: 100%;
+    height: 200px;
+    background-color: black;
+    flex: 1;
+}
+.view2{
+    margin-left: 750px;
+    color: white;
+    background-color: black;
+    border-color: white;
+    font-size: medium;
+    margin-top: 50px;
+}
+.part9{
+    width: 100%;
+    height: 100px;
+    background-color: black;
+}
+.contact{
+    float: left;
+    padding-left: 70px;
+    padding-top: 30px;
+    color: white;
+    font-size: x-large;
+    
+}
+.careers{
+    float: left;
+    padding-left: 20px;
+    padding-top: 30px;
+    color: white;
+    font-size: x-large;
+    
+}
+.subscribe{
+    float: left;
+    padding-left: 20px;
+    padding-top: 30px;
+    color: white;
+    font-size: x-large;
+    
+
+}
+.globe{
+    float: left;
+    margin-left: 900px;
+    margin-top: 40px;
+    width: 20px;
+
+    
+}
+.Languages{
+    float: left;
+    margin-left: 40px;
+    margin-top: 40px;
+    
+
+}
+.part10{
+    width: 100%;
+    height: 300px;
+    background-color: black;
+}
+.corporate{
+    color: white;
+    float: left;
+    padding-top: 40px;
+    padding-left: 70px;
+    font-size: small;
+}
+.privacy{
+    color: white;
+    float: left;
+    padding-left: 20px;
+    padding-top: 40px;
+    font-size: small;
+}
+.cookiesettings{
+    color: white;
+    float: left;
+    padding-left: 20px;
+    padding-top: 40px;
+    font-size: small;
+}
+.legal{
+    color: white;
+    float: left;
+    padding-left: 20px;
+    padding-top: 40px;
+    font-size: small;
+}
+.sell{
+    color: white;
+    float: left;
+    padding-left: 20px;
+    padding-top: 40px;
+    font-size: small;
+}
+.msg{
+    padding-left: 1200px;
+}
+.insta{
+    padding-left: 20px;
+}
+.twit{
+    padding-left: 20px;
+}
+.tube{
+    padding-left: 20px;
+}
+.fb{
+    padding-left: 20px;
+}
+.rock{
+    padding-left: 70px;
+    padding-top: 100px;
+    color: white;
+
+}
+.country{
+    padding-left: 650px;
+    color: white;
+}
+.last{
+    padding-left: 1300px;
+    color: white;
+}
+
+
+    
